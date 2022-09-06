@@ -1,0 +1,21 @@
+.main-div {
+  display: "grid";
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: "5px";
+  max-width: 500px;
+  margin: auto;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.list-card {
+  width: 18rem;
+  display: flex;
+  padding: 0.5em;
+  margin-bottom: 20px;
+}
+.list-item {
+  width: 100%;
+}
